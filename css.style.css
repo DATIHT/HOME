@@ -1,0 +1,160 @@
+body {
+  background-color:c5c3c6;
+  color: black;
+  font-family: 'Charmonman', sans-serif;
+  font-size: 30px;
+  line-height: 2.5;
+}
+.media {
+  text-align: right;
+  padding: 10px;
+  background-color: #1985A1;
+}
+header {
+
+  background-color: inherit;
+
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0;
+  background-color: #DCDCDD;
+  display: block;
+  text-align: center;
+}
+
+nav a img {
+  width: 200px;
+  height: 200px;
+}
+nav ul {
+  padding: 20px;
+  list-style: none;
+  background-color: #DCDCDD;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline-block;
+  padding:2px;
+  background-color: #1985A1;
+}
+
+.active {
+
+}
+.logo {
+  width: 200px;
+  height: 200px;
+}
+h1 {
+
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+h2 {text-align: center;
+  color: black;
+
+}
+section a {
+  text-decoration: none;
+  padding: 0;
+  background-color: #DCDCDD;
+  display: block;
+}
+
+ul {
+  padding:2px;
+  background-color: #1985A1;
+}
+
+.choice {
+  padding: 5px;
+  list-style: none;
+  background-color: #DCDCDD;
+  display: block;
+
+
+
+}
+
+.scratch {
+  padding: 5px;
+  text-align: right;
+  list-style: none;
+  background-color: #DCDCDD;
+  display: block;
+}
+
+.challenges {
+  padding: 5px;
+  text-align: left;
+  list-style: none;
+  background-color: #DCDCDD;
+  display: block;
+
+}
+
+.resources {
+  padding: 5px;
+  text-align: right;
+  list-style: none;
+  background-color: #DCDCDD;
+  display: block;
+
+}
+.form {
+  padding: 0px;
+  list-style: none;
+  background-color: #DCDCDD;
+  display: block;
+  text-align: center;
+
+
+}
+input[type="text"] {
+  padding: 6px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+input [type="text"] {background="yellow";
+}
+.footer {
+  text-align: center;
+  display: block;
+  background: #1985A1;
+}
+
+ .hamburger,
+ .close{
+         display: none;
+ }
+
+@media (max-width: 650px){
+  .hamburger,
+  .close{
+          display: block;
+          text-align: right;
+          font-size: 50px;
+          font-family: "Lucida Sans Unicode", "Arial Unicode MS";
+  	}
+    .main-nav {
+       	position: fixed;
+       	top: -100vh;
+       }
+    .main-nav.open-nav {
+      top: 0;
+      right: 20px;
+     	padding: 2% 10%;
+     	z-index: 2;
+     	background: #550165;
+     	width: 100%;
+     	height: 100vh;
+    }
+
+}
